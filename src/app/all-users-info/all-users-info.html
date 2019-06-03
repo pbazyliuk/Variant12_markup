@@ -1,0 +1,25 @@
+<div class="all-users-info">
+    <div class="tab">
+        <div class="tablinks latest-comments" ng-click="vm.openTab($event, 'first')">
+            <span>Latest Comments</span>
+        </div>
+        <div class="tablinks latest-articles" ng-click="vm.openTab($event, 'second')">
+            <span>Latest Arrticles</span>
+        </div>
+        <div class="tablinks newest-users" ng-click="vm.openTab($event, 'third')">
+            <span>Newest Users</span>
+        </div>
+    </div>
+
+    <div id="first" class="latest-comments-content tabcontent">
+        <comment ng-repeat="commentConfig in vm.commentsConfig" comment-config="commentConfig"></comment>
+    </div>
+
+    <div id="second" class="latest-articles-content tabcontent">
+        <h2>Latest Articles</h2>
+    </div>
+
+    <div id="third" class="latest-newest-users tabcontent">
+        <h2>Newest Users</h2>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+
+.calendar-form {
+    background: #1b93e1;
+    height: 510px;
+    padding: 30px;
+  }
+  
+  .calendar-form__header {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .calendar-form__input {
+    height: 65px;
+    background-color: #4db9ff;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  
+  .calendar-form__input::-webkit-input-placeholder,
+  .calendar-form__textarea::-webkit-input-placeholder {
+    color: #fff;
+  }
+  
+  .calendar-form__textarea {
+    background-color: #4db9ff;
+    border: none;
+    resize: none;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-form__button {
+    background-color: #4db9ff;
+    width: 100%;
+    border: none;
+    color: #fff;
+    height: 65px;
+  }

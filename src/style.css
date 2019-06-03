@@ -1,0 +1,37 @@
+.home {
+  background: #fff;
+  height: 2474px;
+  color: #000;
+  padding: 30px 0;
+}
+
+
+.bread-crumbs {
+  height: 50px;
+  background: #e6e6e6;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #000;
+}
+
+.bread-crumbs__url-starter {
+  font-weight: 300;
+}
+
+.statictics-chart,
+.sales-and-report, 
+.sale-and-trends,
+.calendars,
+.all-users {
+  margin-top: 30px;
+}
+
+.footer {
+  background: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 85px;
+}

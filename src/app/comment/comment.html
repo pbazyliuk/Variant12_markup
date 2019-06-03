@@ -1,0 +1,21 @@
+<div class="comment">
+    <div class="comment_image-container">
+        <img src="{{vm.commentConfig.imageUrl}}" alt="user-avatar">
+    </div>
+
+    <div class="comment__content-container">
+        <div class="comment__content-info">
+            <div>on
+                <span>{{vm.commentConfig.header}}&nbsp;/</span>&nbsp;by
+                <span>{{vm.commentConfig.user}}</span>
+            </div>
+        </div>
+        <div class="comment__date">
+            {{vm.commentConfig.date}}
+        </div>
+
+        <div class="comment__description">
+            {{vm.commentConfig.description}}
+        </div>
+    </div>
+</div>

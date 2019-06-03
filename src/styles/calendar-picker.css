@@ -1,0 +1,17 @@
+
+.calendar-picker {
+    height: 510px;
+    padding: 30px;
+    background: #8f44ad;
+    color: #fff;
+  }
+  
+  .calendar-picker__header {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  #calendar {
+    height: 88% !important;
+    width: 100% !important;
+  }

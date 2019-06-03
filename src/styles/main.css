@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    background: #fff;
+  }
+  
+  body {
+    margin-top: 30px;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+  }
+  
+  .container {
+    background: #fff;
+    border: 1px solid #000;
+    height: 2750px;
+    padding-top: 30px;
+  }
+  
+  .margined-left-header {
+    padding-left: 30px;
+  }

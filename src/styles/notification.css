@@ -1,0 +1,33 @@
+
+.notifications {
+    height: 100px;
+    background: #e77e23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notifications__icon {
+    font-size: 2.8rem;
+    margin: 0 20px;
+  }
+  
+  .notifications__icon:last-child {
+    margin-right: 0;
+  }
+  
+  .notifications__warning {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .notifications__warning-message {
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+  }

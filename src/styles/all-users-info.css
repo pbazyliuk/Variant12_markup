@@ -1,0 +1,87 @@
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none; 
+  }
+  
+  .tablinks {
+    width: 33.3%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  
+  .tablinks:not(.active) {
+    color: #fff;
+  }
+  
+  .active span {
+    border-bottom: 1px solid #fff;
+    padding: 4px;
+  }
+  
+  .latest-comments {
+    background-color: #34495e !important;
+  }
+  
+  .latest-articles {
+    background-color: #f1c40f !important;
+  }
+  
+  .newest-users {
+    background-color: #8f44ad !important;
+  }
+  
+  .all-users-info {
+    height: 423px;
+  }
+  
+  .latest-comments-content {
+    height: 380px;
+    padding: 30px;
+  }
+  
+  .latest-comments-content {
+    background-color: #e84c3d; 
+  }
+
+  .latest-articles-content,
+  .latest-newest-users {
+    background-color: #fff;
+    height: 380px;
+    padding: 30px;
+    color: #000;
+  }

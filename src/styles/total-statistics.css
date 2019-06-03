@@ -1,0 +1,37 @@
+.total-statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 300;
+  }
+  
+  .total-statistics__main-header {
+    font-size: 1.8rem;
+  }
+  
+  .total-statistics__count {
+    margin: 10px 0 15px;
+    font-size: 2.4rem;
+  }
+  
+  .total-statistics__main-header span{
+    font-weight: 400;
+  }
+  
+  .total-statistics__collapse-expand__icon {
+    cursor: pointer;
+    font-size: 2rem;
+    float: right;
+    transition: all 0.4s ease;
+  }
+  
+  .total-statistics__collapse-expand__content  {
+    padding-top: 20px;
+    display: none;
+  }
+  
+  .rotate {
+    transition: all 0.4s ease;
+    transform: rotateZ(90deg);
+  }

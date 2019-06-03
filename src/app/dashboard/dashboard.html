@@ -1,0 +1,46 @@
+<div class="dashboard">
+  <div class="row">
+    <div ng-repeat="totalConfig in vm.totalStatisticsConfig" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+      <total-statistics total-statistics-config="totalConfig"></total-statistics>
+    </div>
+  </div>
+
+  <div class="row statictics-chart">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+      <site-statistics-chart></site-statistics-chart>
+    </div>
+  </div>
+
+  <div class="row sales-and-report">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+      <world-sales-chart></world-sales-chart>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+      <site-report></site-report>
+    </div>
+  </div>
+
+  <div class="row sale-and-trends">
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+      <today-sale-chart></today-sale-chart>
+    </div>
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+      <users-trend-chart></users-trend-chart>
+    </div>
+
+  </div>
+  <div class="row calendars">
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+      <calendar-form></calendar-form>
+    </div>
+    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+      <calendar-picker></calendar-picker>
+    </div>
+  </div>
+
+  <div class="row all-users">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+      <all-users-info></all-users-info>
+    </div>
+  </div>
+</div>

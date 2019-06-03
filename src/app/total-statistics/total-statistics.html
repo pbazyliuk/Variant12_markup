@@ -1,0 +1,14 @@
+<div class="total-statistics" ng-style="{'background-color' : vm.totalStatisticsConfig.backgroundColor}">
+  <div class="total-statistics__main-header">
+    TOTAL
+    <span>{{vm.totalStatisticsConfig.itemName.toUpperCase()}}</span>
+  </div>
+  <div class="total-statistics__count text-center">{{vm.totalStatisticsConfig.count}}</div>
+  <div class="total-statistics__collapse-expand">
+    {{vm.totalStatisticsConfig.info}}
+    <i class="total-statistics__collapse-expand__icon fas fa-chevron-right" ng-click="vm.toggleCollapseExpand($event)"></i>
+    <div class="total-statistics__collapse-expand__content">
+      <p>Additional information goes here</p>
+    </div>
+  </div>
+</div>

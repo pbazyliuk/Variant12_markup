@@ -1,0 +1,23 @@
+
+.jqx-widget-content {
+    background: transparent !important;
+    color: #fff !important;
+  }
+  
+  .jqx-calendar-cell-othermonth {
+    color: rgba(255,255, 255, 0.5) !important;
+  }
+  
+  .jqx-layout-group-auto-hide-content-vertical {
+      width: 200px;
+  }
+  
+  .jqx-calendar-title-container {
+    background-color: transparent !important;
+    color: #fff !important;
+  }
+  
+  .jqx-calendar-cell-today {
+    color: #898989;
+    background-color: #fff;
+  }

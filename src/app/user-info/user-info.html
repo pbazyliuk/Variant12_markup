@@ -1,0 +1,15 @@
+<div class="user-info">
+    <i class="user-info__icon {{vm.userInfoConfig.iconClass}}"></i>
+    <div class="user-info__name">
+        {{vm.userInfoConfig.userName}}
+    </div>
+    <div class="user-info__chevron">
+        <i class="user-info__collapse-expand__icon fas fa-chevron-right" ng-click="vm.toggleCollapseExpand($event)"></i>
+        <div class="user-info__collapse-expand__content">
+            <p>Additional information goes here</p>
+        </div>
+    </div>
+    <div class="user-info__cog">
+        <i class="fas fa-cog"></i>
+    </div>
+</div>

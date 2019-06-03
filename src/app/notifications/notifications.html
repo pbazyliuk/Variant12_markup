@@ -1,0 +1,10 @@
+<div class="notifications">
+    <div ng-repeat="notificationIcon in vm.notificationConfig">
+        <i class="notifications__icon {{notificationIcon.iconClass}}"></i>
+        <div class="notifications__warning">
+            <div class="notifications__warning-message" ng-style="{'backgroundColor': notificationIcon.warningColor}" ng-if="notificationIcon.warningCount">{{
+                notificationIcon.warningCount}}
+            </div>
+        </div>
+    </div>
+</div>

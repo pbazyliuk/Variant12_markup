@@ -1,0 +1,22 @@
+.side-bar {
+    background-color: #2980b9;
+    height: 2474px;
+  }
+  
+  .side-bar-header {
+    height: 160px;
+  }
+  
+  .side-bar-header__logo-container {
+    height: 100px;
+    background: #1b93e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side-bar-header__distributor {
+    height: 60px;
+    background: #2980b9;
+  }
+  

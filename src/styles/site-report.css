@@ -1,0 +1,21 @@
+
+.site-report {
+    height: 400px;
+    background: #bec3c7;
+    padding: 30px;
+    color: #000;
+  }
+  
+  .site-report__header {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
+  
+  .site-report__progress-bar {
+    margin-bottom: 20px;
+  }
+  
+  .progress + .progress {
+    margin-top: 30px;
+  }

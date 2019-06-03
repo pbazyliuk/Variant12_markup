@@ -1,0 +1,9 @@
+<div class="navigation-section">
+    <div class="navigation-section__header">
+        {{vm.sectionConfig.name}}
+    </div>
+
+    <ul class="navigation-section__list">
+        <navigation-item ng-repeat="sectionItem in vm.sectionConfig.sectionList" section-item="sectionItem"></navigation-item>
+    </ul>
+</div>

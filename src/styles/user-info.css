@@ -1,0 +1,47 @@
+.user-info {
+    height: 100px;
+    background: #c1392b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .user-info__icon {
+    font-size: 3.2rem;
+    margin-right: 10px;
+  }
+  
+  .user-info__name {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  .user-info__chevron {
+    font-size: 1.8rem;
+    margin-right: 15px;
+  }
+  
+  .user-info__cog {
+    font-size: 2.8rem;
+  }
+  
+  .user-info__collapse-expand__icon {
+    cursor: pointer;
+    font-size: 2rem;
+    float: right;
+    transition: all 0.4s ease;
+  }
+  
+  .user-info__collapse-expand__content  {
+    display: none;
+    position: absolute;
+    background: rgb(231, 126, 35);
+    top: 100px;
+    left: 0px;
+    z-index: 999;
+    padding: 20px;
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  
