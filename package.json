@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.7.2",
+    "angular": "^1.8.0",
     "angular-ui-router": "^1.0.18",
     "highcharts": "^7.1.1"
   },
